@@ -6,20 +6,20 @@
 - [x] Button
 - [x] TextInput
 - [x] TextArea
-- [ ] CheckBox
+- [x] CheckBox
 - [x] Avatar
-- [ ] MultiStep
+- [x] MultiStep
 
 
 # Organizando o design system
 
-## 1. Criar a estrutura:
+## 1. Estrutura:
 
 packages
-| docs
+| docs (storybook)
 | eslint-config
-| react
-| tokens
+| react (components)
+| tokens (default colors, spaces, etc)
 | ts-config
 
 
