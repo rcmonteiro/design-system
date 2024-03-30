@@ -21,6 +21,8 @@ jobs:
 
       - run: npm run build
 
+      - run: touch ./storybook-static/.nojekyll
+
       - name: Deploy storybook
         working-directory: ./packages/docs
         run: npm run deploy-storybook -- --ci --existing-output-dir=storybook-static
