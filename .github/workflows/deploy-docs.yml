@@ -20,6 +20,8 @@ jobs:
       - run: npm ci
 
       - run: npm run build
+        env: 
+          TURBO_TOKEN: dt6AtAdwDJWQrdTF9qoaYFlv
 
       - run: touch ./packages/docs/storybook-static/.nojekyll
 
