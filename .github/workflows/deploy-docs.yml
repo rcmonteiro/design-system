@@ -23,7 +23,7 @@ jobs:
 
       - run: npm run build
         env: 
-          TURBO_TOKEN: dt6AtAdwDJWQrdTF9qoaYFlv
+          TURBO_TOKEN: ${{ secrets.VERCEL_TOKEN }}
 
       - run: touch ./packages/docs/storybook-static/.nojekyll
 
