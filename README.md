@@ -1,4 +1,15 @@
-# Components
+# Desafio Design System
+
+## Curso: Módulo e Desafio Design System na Rocketseat (módulo 06)
+
+- **vite**
+- **react**
+- **typescript**
+- **stitches**
+
+Neste projeto criamos um monorepo para servir nosso design system, com os packages `react` e `tokens` publicados na NPM, e nossa `docs` publicada no github, usando storybook.
+
+# Componentes documentados
 
 - [x] Text
 - [x] Heading
@@ -9,23 +20,3 @@
 - [x] CheckBox
 - [x] Avatar
 - [x] MultiStep
-
-
-# Organizando o design system
-
-## 1. Estrutura:
-
-packages
-| docs (storybook)
-| eslint-config
-| react (components)
-| tokens (default colors, spaces, etc)
-| ts-config
-
-
-## 2. Configuração do storybook
-
-- `$ npx storybook@latest init`
-- use React + Vite
-- `$ npm i vite @vitejs/plugin-react -D`
-- `$ npm i react react-dom`
